@@ -1,0 +1,64 @@
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+}
+@media (max-width: 768px) {
+  .skills-container {
+    grid-template-columns: 1fr;
+  }
+
+  .tech-skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .skills-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+@media (max-width: 768px) {
+  .about-content {
+    max-width: 100%;
+    padding: 26px 22px;
+  }
+}
+@media (max-width: 768px) {
+  .paragraphs {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+}
+/* Desktop layout */
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+/* 📱 Mobile layout */
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;   /* 🔥 key line */
+    gap: 2.5rem;
+  }
+
+  .about-content {
+    width: 100%;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+
+  .paragraphs {
+    text-align: left;
+    padding: 0 12px;
+    border-radius: 8px
+  }
+}

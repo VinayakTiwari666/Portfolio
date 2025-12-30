@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+</head>
+<body>
+    <section class="animated-bg">
+    <nav id="desktop-nav">
+    <div class="logo"> MY PORTFOLIO </div>
+    <div>
+        <ul class="nav-links">
+            <li><a href="#About">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<nav id="hamburger-nav">
+    <div class="logo">My Portfolio</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+           
+        
+        </div>
+        <div class="menu-links">
+         <li><a href="#About" onclick="toggleMenu()">About</a></li>
+         <li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
+         <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+         <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+    </div>
+</nav>
+</section>
+<section id="Profile">
+    <div class="section_pic_container">
+        <img src="assets/assets/profile-picture-3.jpeg" alt="My profile pic "/>
+    </div>
+    <div class="section_text">
+        <p class="section_text_p1"> Hello! I'm </p>
+        <h1>Vinayak Tiwari</h1>
+        <h3>Full Stack Developer | Competitive Programmer | Tech Enthusiast</h3>
+        <button class="btn btn-colour-2" onclick="window.open('assets/assets/Black White Minimalist CV Resume.pdf')">Download CV(sample)</button>
+        <button class="btn btn-colour-1" onclick="window.location.href='#Contact'">Let's Connect</button>
+    </div>
+    <div id="social-media-icons">
+        <a href="https://www.linkedin.com/in/vinayak-tiwari-97a193329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="assets/assets/linkedin.png" alt="LinkedIn"/></a>
+        <a href="https://github.com/VinayakTiwari666" target="_blank"><img src="assets/assets/github.png" alt="GitHub"/></a>
+    </div>
+</section>
+<br><br>
+<section id="About">
+    
+    <div class="flex-container">
+    <div class="profile_picture">
+
+        <img src="./assets/assets/aboutme.png.jpeg" alt="My profile pic "/>
+
+    <div class="education-pills">
+
+    <a 
+      href=https://valleyviewschooljsr.com/
+      target="_blank" 
+      class="pill"
+    >
+        <p>
+            <strong>Schooling:🏫</strong><br>
+            Primary ➡️ Senior Secondary (Pure Science with Computer Science)(2009-2024)<br>
+            Valley View School, Jamshedpur
+        </p>
+    </a>
+
+    <a 
+      href=https://srmrmp.edu.in/
+      target="_blank" 
+      class="pill"
+    >
+        <p>
+            <strong>College:🎓</strong><br>
+            B.Tech in Computer Science (Specialization in IoT) (2024-2028)<br>
+            SRMIST Ramapuram, Chennai
+        </p>
+    </a>
+
+</div>
+
+    </div>
+    <div class="about-content">
+        <div class="about-text">
+            <h2 id="aboutme">About Me 🙋🏻‍♂️</h2>
+            <br>
+            <div class="paragraphs">
+            <p>Hello! I'm Vinayak Tiwari, a passionate Full Stack Developer and Competitive Programmer. I love building web applications that solve real-world problems and enhance user experiences. With a strong foundation in both front-end and back-end technologies, I enjoy creating seamless and efficient solutions.</p>
+            <p>In addition to my development skills, I am an avid competitive programmer, constantly challenging myself to improve my problem-solving abilities and algorithmic thinking. I thrive in dynamic environments where I can collaborate with like-minded individuals and contribute to innovative projects.</p>
+            <p>When I'm not coding, you can find me exploring new technologies, participating in coding competitions, or simply enjoying a good book. I'm always eager to learn and grow in the ever-evolving field of technology.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<a href="#Skills" class="scroll-down">
+    <img src="assets/assets/arrow.png" alt="Scroll down">
+</a>
+</section>
+<section id="Skills">
+  <div class="skills-heading">
+    <h2 id="aboutme">🛠️ Skills 🧰</h2>
+  </div>
+
+  <div class="skills-container">
+
+    <!-- TECHNICAL SKILLS -->
+    <div class="skills-block">
+      <h3>Technical Skills</h3>
+
+      <div class="tech-skills-grid">
+        <div class="tech-skill">
+          <img src="assets/assets/html.png" alt="HTML">
+          <span>HTML</span>
+        </div>
+
+        <div class="tech-skill">
+          <img src="assets/assets/css.png" alt="CSS">
+          <span>CSS</span>
+        </div>
+
+        <div class="tech-skill">
+          <img src="assets/assets/js.png" alt="JavaScript">
+          <span>JavaScript</span>
+        </div>
+
+        <div class="tech-skill">
+          <img src="assets/assets/sql.png" alt="SQL">
+          <span>SQL</span>
+        </div>
+
+        <div class="tech-skill">
+          <img src="assets/assets/react.png" alt="React">
+          <span>React</span>
+        </div>
+
+        <div class="tech-skill">
+          <img src="assets/assets/firebs.png" alt="Firebase">
+          <span>Firebase</span>
+        </div>
+
+        <div class="tech-skill">
+          <img src="assets/assets/20220821154536!Python-logo-notext.svg.png" alt="Python">
+          <span>Python</span>
+        </div>
+
+        <div class="tech-skill">
+          <img src="assets/assets/git.png" alt="Git">
+          <span>Git</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- SOFT SKILLS -->
+    <div class="skills-block">
+      <h3>Soft Skills</h3>
+      <ul class="soft-skills">
+        <li>Communication 💬</li>
+        <li>Problem Solving  🧮</li>
+        <li>Team Collaboration 🤝</li>
+        <li>Time Management ⏱️</li>
+        <li>Creativity 🖼️</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+<!-- Projects Section -->
+<a href="#Projects" class="scroll-down">
+    <img src="assets/assets/arrow.png" alt="Scroll down">
+</a>
+
+<section id="Projects">
+    <h2 id="aboutme">💻 Projects🖱️</h2>
+    
+<!-- Projects Container 1-->
+    <div class="projects-container">
+
+       <div class="project-card">
+    <img src="assets/assets/project1.png" alt="Portfolio Website">
+
+    <h3>Hangman Game using Pygame library</h3>
+
+    <div class="project-links">
+        <a href="https://github.com/VinayakTiwari666/HANGMAN-V1"
+           target="_blank"
+           class="project-link">
+           GitHub
+        </a>
+
+        
+    </div>
+
+    <!-- Dropdown description -->
+    <details class="project-details">
+        <summary>Details</summary>
+        <p>
+            A simple Hangman game built using Python's Pygame library. The game features a graphical interface where players can guess letters to reveal a hidden word, with a limited number of incorrect guesses allowed before the game ends.
+        </p>
+    </details>
+</div>
+<!-- Project 2 -->
+<div class="project-card">
+    <img src="assets/assets/project2.png" alt="Personal Portfolio Website">
+
+    <h3>On this Day</h3>
+
+    <div class="project-links">
+        <a href="https://github.com/VinayakTiwari666/On-this-Day-"
+           target="_blank"
+           class="project-link">
+           GitHub
+        </a>
+
+        <a href="https://vinayaktiwari666.github.io/On-this-Day-/"
+           target="_blank"
+           class="project-link">
+           Live
+        </a>
+    </div>
+
+    <!-- Dropdown description -->
+    <details class="project-details">
+        <summary>Details</summary>
+        <p>
+            A website where you enter your birthdate and it returns a historical event which happened on that day(simple beginner level application of HTML., JS and CSS ,uses Wiki API to return an event)
+        </p>
+    </details>
+</div>
+<!-- Project 3 -->
+<div class="project-card">
+    <img src="assets/assets/project3.png" alt="Personal Portfolio Website">
+
+    <h3>Web-based Calculator</h3>
+
+    <div class="project-links">
+        <a href="https://github.com/VinayakTiwari666/Web-based-Calculator"
+           target="_blank"
+           class="project-link">
+           GitHub
+        </a>
+
+        <a href="https://vinayaktiwari666.github.io/Web-based-Calculator/"
+           target="_blank"
+           class="project-link">
+           Live
+        </a>
+    </div>
+
+    <!-- Dropdown description -->
+    <details class="project-details">
+        <summary>Details</summary>
+        <p>
+          A simple and beginner level web calculator which shows the implementation of Web development
+        </p>
+    </details>
+</div>
+    </div>
+</section>
+<a href="#Contact" class="scroll-down">
+    <img src="assets/assets/arrow.png" alt="Scroll down">
+</a>
+
+<section id="Contact"></section>
+<section class="animated-bg">
+</section>
+<section id="Contact">
+  <div class="contact-container">
+    <h2>📩 Contact Me</h2>
+    <p>Have a question or want to work together? Let’s talk.</p>
+
+    <form id="contact-form">
+      <div class="form-group">
+        <input type="text" name="name" placeholder="Your Name" required />
+      </div>
+
+      <div class="form-group">
+        <input type="email" name="email" placeholder="Your Email" required />
+      </div>
+
+      <div class="form-group">
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      </div>
+
+      <button type="submit" class="contact-btn">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<button id="backToTop" aria-label="Back to top">↑</button>
+
+<footer class="footer">
+  <div class="footer-container">
+    <p>📞 +91 9973940561</p>
+    <p>📧 vinayaktiwari566@gmail.com</p>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Vinayak Tiwari. All rights reserved.</p>
+  </div>
+</footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="script.js"></script> 
+       
+
+</body>
+</html>
