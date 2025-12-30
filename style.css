@@ -818,15 +818,10 @@ a:hover {
 /* Mobile */
 
 .footer {
-  margin-top: 80px;
-  padding: 30px 20px;
-
-  background: linear-gradient(
-    to right,
-    #1f1c2c,
-    #4a00e0
-  );
+  background: linear-gradient(to right, #1f1c2c, #4a00e0);
   color: white;
+  padding: 30px 20px 15px;
+  margin-top: 80px;
 }
 
 .footer-container {
@@ -840,12 +835,15 @@ a:hover {
 
   font-size: 0.95rem;
 }
+
+/* Bottom copyright */
 .footer-bottom {
   text-align: center;
-  margin-top: 40px;
-  font-size: 0.9rem;
-  opacity: 0.8;
+  margin-top: 20px;
+  font-size: 0.85rem;
+  opacity: 0.85;
 }
+
 #backToTop {
   position: fixed;
   bottom: 30px;

@@ -62,3 +62,19 @@
     border-radius: 8px
   }
 }
+@media (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;   /* 🔥 stack vertically */
+    gap: 12px;
+    text-align: center;
+  }
+
+  .footer-container p {
+    font-size: 0.9rem;
+  }
+
+  .footer-bottom {
+    margin-top: 16px;
+    font-size: 0.8rem;
+  }
+}
