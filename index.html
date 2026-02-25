@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="mediaqueries.css"/>
 </head>
@@ -16,9 +19,13 @@
             <li><a href="#About">About</a></li>
             <li><a href="#Skills">Skills</a></li>
             <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Internships">Internships</a></li>
             <li><a href="#Contact">Contact</a></li>
         </ul>
     </div>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark theme">
+        Theme
+    </button>
 </nav>
 <nav id="hamburger-nav">
     <div class="logo">My Portfolio</div>
@@ -34,9 +41,13 @@
          <li><a href="#About" onclick="toggleMenu()">About</a></li>
          <li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
          <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+         <li><a href="#Internships" onclick="toggleMenu()">Internships</a></li>
          <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
         </div>
     </div>
+    <button class="theme-toggle" id="themeToggleMobile" type="button" aria-label="Toggle dark theme">
+        Theme
+    </button>
 </nav>
 </section>
 <section id="Profile">
@@ -159,6 +170,10 @@
           <img src="assets/assets/git.png" alt="Git">
           <span>Git</span>
         </div>
+        <div class="tech-skill">
+          <img src="assets/assets/next-js.png" alt="Next.js">
+          <span>Next.js</span>
+        </div>
       </div>
     </div>
 
@@ -266,15 +281,115 @@
         </p>
     </details>
 </div>
+
+<!-- Project 4 -->
+<div class="project-card">
+    <img src="assets/assets/project4.png" alt="Project Placeholder">
+
+    <h3>Sarvam Mart</h3>
+
+    <div class="project-links">
+        <a href="https://github.com/VinayakTiwari666/FUTURE_FS_02" target="_blank" class="project-link">GitHub</a>
+        <a href="https://sarvammart.netlify.app/" target="_blank" class="project-link">Live</a>
+    </div>
+
+    <details class="project-details">
+        <summary>Details</summary>
+        <p>A full-stack React e-commerce app with Firebase authentication, persistent cart, protected checkout, and order history.</p>
+    </details>
+</div>
+
+<!-- Project 5 -->
+<div class="project-card">
+    <img src="assets/project5.png" alt="Project Placeholder">
+
+    <h3>Mal Rebrand</h3>
+
+    <div class="project-links">
+        <a href="https://github.com/VinayakTiwari666/FUTURE_FS_03" target="_blank" class="project-link">GitHub</a>
+        <a href="https://malrebrand.netlify.app/" target="_blank" class="project-link">Live</a>
+    </div>
+
+    <details class="project-details">
+        <summary>Details</summary>
+        <p>A rebrand of the popular anime list site - MAL , main priority was given to the mobile optimization..</p>
+    </details>
+</div>
+
+<!-- Project 6 -->
+<div class="project-card">
+    <img src="assets/project6.png" alt="Project Placeholder">
+
+    <h3>Rock Paper Scissors - Python</h3>
+
+    <div class="project-links">
+        <a href="https://github.com/VinayakTiwari666/CODSOFT---Task-3-Rock-Paper-Scissors-Game-" target="_blank" class="project-link">GitHub</a>
+        
+    </div>
+
+    <details class="project-details">
+        <summary>Details</summary>
+        <p>A simple Rock Paper Scissors game implemented in Python with a basic GUI using Tkinter.</p>
+    </details>
+</div>
+
+<!-- Project 7 -->
+<div class="project-card">
+    <img src="assets/project7.png" alt="Project Placeholder">
+
+    <h3>Password Generator</h3>
+
+    <div class="project-links">
+        <a href="https://github.com/VinayakTiwari666/CODSOFT---Task-2-PASSWORD-GENERATOR-" target="_blank" class="project-link">GitHub</a>
+        
+    </div>
+
+    <details class="project-details">
+        <summary>Details</summary>
+        <p>A simple password generator implemented in Python with customizable options for length, character sets, and complexity.</p>
+    </details>
+</div>
+
+
     </div>
 </section>
 <a href="#Contact" class="scroll-down">
     <img src="assets/assets/arrow.png" alt="Scroll down">
 </a>
 
-<section id="Contact"></section>
-<section class="animated-bg">
+<section id="Internships">
+  <h2 id="aboutme">Internships</h2>
+
+  <div class="internship-container">
+    <div class="internship-card">
+      <div class="internship-image">
+        <img src="assets/futureIntcertificate.png" alt="Internship Certificate">
+      </div>
+      <div class="internship-content">
+        <h3>Full Stack Web Development Intern</h3>
+        <p>
+          Completed a one internship at FutureIntern, where I worked on developing responsive web applications using React, Node.js, Firebase, and MongoDB. Gained hands-on experience in full-stack development .
+        </p>
+      </div>
+    </div>
+    <div class="internship-card">
+      <div class="internship-image">
+        <img src="assets/codsft.jpg" alt="Internship Certificate">
+      </div>
+      <div class="internship-content">
+        <h3>Python Intern</h3>
+        <p>
+          Completed a one-month internship at Codsoft, where I worked on developing Python applications and scripts for automation and data processing tasks. Gained hands-on experience in Python programming, debugging, and working with libraries like Tkinter.
+        </p>
+      </div>
+    </div>
+  </div>
 </section>
+
+<a href="#Contact" class="scroll-down">
+    <img src="assets/assets/arrow.png" alt="Scroll down">
+</a>
+
 <section id="Contact">
   <div class="contact-container">
     <h2>📩 Contact Me</h2>

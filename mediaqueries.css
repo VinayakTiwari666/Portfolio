@@ -1,12 +1,28 @@
 @media screen and (max-width: 1200px) {
-    #desktop-nav {
-        display: none;
-    }
-    #hamburger-nav {
-        display: flex;
-    }
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5vw;
+  }
 }
-@media (max-width: 768px) {
+
+@media (max-width: 980px) {
+  .flex-container {
+    grid-template-columns: 1fr;
+  }
+
+  .profile_picture img {
+    width: 260px;
+    height: 260px;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 900px) {
   .skills-container {
     grid-template-columns: 1fr;
   }
@@ -15,56 +31,38 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (max-width: 768px) {
-  .skills-container {
-    flex-direction: column;
-    align-items: stretch;
-  }
-}
-@media (max-width: 768px) {
-  .about-content {
-    max-width: 100%;
-    padding: 26px 22px;
-  }
-}
-@media (max-width: 768px) {
-  .paragraphs {
-    font-size: 0.95rem;
-    line-height: 1.7;
-  }
-}
-/* Desktop layout */
-.flex-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 4rem;
-}
 
-/* 📱 Mobile layout */
 @media (max-width: 768px) {
-  .flex-container {
-    flex-direction: column;   /* 🔥 key line */
-    gap: 2.5rem;
-  }
-
-  .about-content {
-    width: 100%;
-  }
-
-  .about-text {
+  .internship-card {
+    grid-template-columns: 1fr;
     text-align: center;
   }
 
+  .internship-content {
+    text-align: center;
+  }
+
+  .section_text h1 {
+    font-size: 2.1rem;
+  }
+
+  .section_text h3 {
+    font-size: 1.05rem;
+  }
+
   .paragraphs {
-    text-align: left;
-    padding: 0 12px;
-    border-radius: 8px
+    font-size: 0.98rem;
+    line-height: 1.7;
   }
 }
+
 @media (max-width: 600px) {
+  .nav-links {
+    font-size: 1rem;
+  }
+
   .footer-container {
-    flex-direction: column;   /* 🔥 stack vertically */
+    flex-direction: column;
     gap: 12px;
     text-align: center;
   }
